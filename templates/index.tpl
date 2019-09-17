@@ -5,11 +5,10 @@
 </head>
 <body>
     
-    <h1>Fréttir</h1>
+    <h1>Kennitölur</h1>
     <a href="/">Home</a>
-    {% for x in frettir %}
-        <h2><a href="/home/{{ x[0] }}">{{ x[1] }}</a></h2>
-
+    {% for x in nofn %}
+        <h3>{{x[0]}} <a href="/{{ x[1] }}">{{ x[1] }}</a></h3>
     {% endfor %}
   
 

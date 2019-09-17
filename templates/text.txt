@@ -1,7 +1,0 @@
-    <h1>Fréttir</h1>
-    <a href="/">Home</a>
-    <p>{{ frett[2] }}</p>
-    <br>
-    <img src="{{url_for('static', filename=myndir[0])}}" />
-    <br>
-    <p>{{ frett[3] }}</p>
